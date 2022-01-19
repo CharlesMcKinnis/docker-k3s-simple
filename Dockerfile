@@ -14,5 +14,5 @@ ADD . /app/
 RUN pip install -r requirements.txt
 
 # Run the app
-#CMD ["python", "/app/app.py"]
-CMD ["/bin/bash"]
+CMD ["python", "/app/app.py"]
+#CMD ["/bin/bash"]
